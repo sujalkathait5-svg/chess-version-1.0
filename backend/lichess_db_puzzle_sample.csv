@@ -1,0 +1,4 @@
+# DEPRECATED
+# This CSV file has been removed. Puzzle data is now seeded directly
+# in backend/db/sqlite.js on server startup (24 unique tactical puzzles).
+# This file can be safely deleted.
