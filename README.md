@@ -659,4 +659,3 @@ KingsGauntlet Chess Arena uses a Node.js backend with Socket.IO and an SQLite da
 
 *Built with ❤️ by KingsGauntlet — Learn chess. Play better. Have fun.*
  
- 
