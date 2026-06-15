@@ -23,6 +23,7 @@
 - [Move Classification System](#move-classification-system)
 - [Technology Stack](#technology-stack)
 - [Project Structure](#project-structure)
+- [Application Flow](#application-flow)
 - [Getting Started](#getting-started)
 - [Environment Variables](#environment-variables)
 - [API Reference](#api-reference)
@@ -141,7 +142,7 @@ Local multiplayer on one device — no internet needed.
 - **Undo** takes back both your move and the AI's response
 - All other controls (eval bar, opening badge, flip board, sound) work identically to Friend mode
 
-Post-game Elo updates are calculated against a Stockfish strength rating of `800 + (level × 400)` for levels 1–5, and fixed `3200` for level 6.
+Post-game Elo updates are calculated against a Stockfish strength rating of `400 + (level × 400)` for levels 1–5, and fixed `3200` for level 6.
 
 ---
 
@@ -282,7 +283,7 @@ Each move in the post-game review is classified by the centipawn loss between th
 | 📖 | **Book** | — | A recognized opening theory move |
 | 🟡 | **Inaccuracy** | 56–100 | Slightly drops the player's advantage |
 | 🟠 | **Mistake** | 101–200 | Gives away a tangible positional or material edge |
-| 🔴 | **Miss** | >100 (opp. blundered) | Missed opportunity to exploit the opponent's error |
+| 🔴 | **Miss** | > 100 (opp. blundered) | Missed opportunity to exploit the opponent's error |
 | 🔴 | **Blunder** | > 200 | A critical error — hanging piece or missed decisive threat |
 
 ---
@@ -656,6 +657,6 @@ KingsGauntlet Chess Arena uses a Node.js backend with Socket.IO and an SQLite da
 
 ---
 
-*Built with ❤️ by KingsGauntlet — Learn chess. Play better. Have fun.*#   c h e s s - v e r s i o n - 1 . 0  
- #   c h e s s - v e r s i o n - 1 . 0  
+*Built with ❤️ by KingsGauntlet — Learn chess. Play better. Have fun.*
+ 
  
